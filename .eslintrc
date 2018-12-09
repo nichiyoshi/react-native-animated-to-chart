@@ -1,0 +1,11 @@
+{
+  "extends": [ "airbnb" ],
+  "rules": {
+    "no-console": "off",
+    "class-methods-use-this": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": "off",
+    "max-len": [1, 300, 2],
+  },
+  "parser": "babel-eslint",
+}
